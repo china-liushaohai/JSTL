@@ -1,0 +1,25 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<title>Java EE 6 Technology Comments</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="ico/iit.gif">
+
+<nav>
+    <ul>
+        <li><a href="success.jsp">Home</a></li>
+        <li><a href="index.jsp">Sign-in</a></li>
+        <li>
+            <form id="form1" method="post">
+                <a href="logout.jsp" >Sign-off</a>
+            </form>
+            <input type="hidden" name="mess" value="Sign-off"/>
+        </li>				
+        <li><a href="/MiniPro/comment.jsp">Comment</a></li>
+        <li><a href="listcom.jsp">List Comment</a></li
+
+    </ul>
+</nav>
+
+
+

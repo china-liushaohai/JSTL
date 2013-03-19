@@ -1,0 +1,164 @@
+/* 
+    Document   : style
+    Created on : Sep 19, 2012, 10:36:21 PM
+    Author     : Admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+input {
+    border: 3px solid white; 
+    -webkit-box-shadow: 
+        inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+        inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+        inset 0 0 8px  rgba(0,0,0,0.1),
+        0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 5px 0;
+}
+
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+
+table,td,th
+{
+    border:0px solid black;
+}
+td
+{
+    text-align : left;
+    padding: 5px;
+    color: white;
+}
+
+body{
+    background: #333 url(http://www.red-team-design.com/wp-content/uploads/2011/10/wood.png);
+    width: 610px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica;
+    font-size: small;
+    color: #555;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+
+nav  {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 80px 0 20px 0;
+    padding: .7em;
+    float: left;
+    list-style: none;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    -moz-border-radius: .5em;
+    -webkit-border-radius: .5em;
+    border-radius: .5em;    
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2), 0 2px 1px rgba(0,0,0,.8) inset; 
+}
+
+nav li {
+    float:left;
+}
+
+nav a {
+    float:left;
+    padding: .8em 1.5em;
+    text-decoration: none;
+    color: #555;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    font: bold 1.1em/1 'trebuchet MS', Arial, Helvetica;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff #ccc #999 #eee;
+    background: #c1c1c1;
+    background: -moz-linear-gradient(#f5f5f5, #c1c1c1);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#c1c1c1));
+    background: -webkit-linear-gradient(#f5f5f5, #c1c1c1);
+    background: -o-linear-gradient(#f5f5f5, #c1c1c1);
+    background: -ms-linear-gradient(#f5f5f5, #c1c1c1);
+    background: linear-gradient(#f5f5f5, #c1c1c1);            
+}
+
+nav a:hover, nav a:focus {
+    outline: 0;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    background: #fac754;
+    background: -moz-linear-gradient(#fac754, #f8ac00);
+    background: -webkit-gradient(linear, left top, left bottom, from(#fac754), to(#f8ac00));
+    background: -webkit-linear-gradient(#fac754, #f8ac00);
+    background: -o-linear-gradient(#fac754, #f8ac00);
+    background: -ms-linear-gradient(#fac754, #f8ac00);
+    background: linear-gradient(#fac754, #f8ac00);
+}
+
+nav a:active {
+    -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+    -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.3) inset;
+}
+
+nav li:first-child a {
+    border-left: 0;
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;            
+}
+
+nav li:last-child a {
+    border-right: 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;            
+}
+
+
+.gradient h1 {
+    font: 150%/100% "Lucida Grande", Arial, sans-serif;
+    font-style: italic;
+    position: relative;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+.gradient {
+    background: #333 url(http://www.red-team-design.com/wp-content/uploads/2011/10/wood.png);
+    padding: 10px 0 10px 10px;
+    margin: 15px 0 25px;
+}
+
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    border: 1px solid;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    -webkit-box-orient: vertical;
+    resize: auto;
+    cursor: auto;
+    padding: 1px;
+    white-space: pre-wrap;
+}
